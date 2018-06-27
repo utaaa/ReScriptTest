@@ -24,7 +24,7 @@ public class Test : MonoBehaviour {
         }
 
         //配列の要素をすべて逆順に表示する
-        for (int i = 4; i > 0; i--)
+        for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
